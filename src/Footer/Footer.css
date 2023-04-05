@@ -1,0 +1,63 @@
+.mainFooter{
+    background-color:  rgb(202, 201, 201);;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+}
+.mainFooter .DivLeft{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainFooter .DivLeft img{
+    height: 40%;
+    margin: 0 5rem 0 5rem;
+}
+
+.mainFooter .DivRigth{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mainFooter .DivRigth img{
+    height: 80%;
+    margin-right: 3rem;   
+}
+@media (max-width: 600px) {
+    .mainFooter{
+        background-color:  rgb(202, 201, 201);;
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+    }
+    .mainFooter .DivLeft{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainFooter .DivLeft img{
+        height: 50%;
+        margin: 0 1rem 0 1rem;
+    }
+    .mainFooter .DivLeft p{
+        display: none;
+    }
+    .mainFooter .DivRigth{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+    }
+    .mainFooter .DivRigth img{
+        height: 80%;
+        margin-right: 3rem;   
+    }
+}
